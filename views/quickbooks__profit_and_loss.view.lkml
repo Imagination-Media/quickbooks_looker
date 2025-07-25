@@ -1,5 +1,5 @@
 view: quickbooks__profit_and_loss {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__profit_and_loss` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__profit_and_loss` ;;
 
   dimension: date_account_pk {
     primary_key: yes

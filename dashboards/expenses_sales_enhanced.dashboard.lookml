@@ -7,7 +7,7 @@
   elements:
   - title: Billable vs Non-Billable - R12 Months
     name: Billable vs Non-Billable - R12 Months
-    model: main
+    model: quickbooks
     explore: quickbooks__expenses_sales_enhanced
     type: looker_column
     fields: [quickbooks__expenses_sales_enhanced.total_amount, quickbooks__expenses_sales_enhanced.billable_status,
@@ -82,7 +82,7 @@
     height: 18
   - title: Non-Billable Sales Expenses
     name: Non-Billable Sales Expenses
-    model: main
+    model: quickbooks
     explore: quickbooks__expenses_sales_enhanced
     type: looker_grid
     fields: [quickbooks__expenses_sales_enhanced.description, quickbooks__expenses_sales_enhanced.item_quantity,
@@ -150,7 +150,7 @@
     height: 8
   - title: Billable Sales Expenses
     name: Billable Sales Expenses
-    model: main
+    model: quickbooks
     explore: quickbooks__expenses_sales_enhanced
     type: looker_grid
     fields: [quickbooks__expenses_sales_enhanced.customer_name, quickbooks__expenses_sales_enhanced.description,
@@ -227,7 +227,7 @@
     height: 18
   - title: Billable Sales Expenses (Copy)
     name: Billable Sales Expenses (Copy)
-    model: main
+    model: quickbooks
     explore: quickbooks__expenses_sales_enhanced
     type: looker_grid
     fields: [quickbooks__expenses_sales_enhanced.customer_name, quickbooks__expenses_sales_enhanced.description,
@@ -313,7 +313,7 @@
       type: advanced
       display: popover
       options: []
-    model: main
+    model: quickbooks
     explore: quickbooks__expenses_sales_enhanced
     listens_to_filters: []
     field: quickbooks__expenses_sales_enhanced.transaction_month

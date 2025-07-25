@@ -1,5 +1,5 @@
 view: invoice {
-  sql_table_name: `imagination-media-324201.quickbooks.invoice` ;;
+  sql_table_name: `im-datalake.im_quickbooks.invoice` ;;
   drill_fields: [id]
 
   dimension: id {

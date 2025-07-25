@@ -7,7 +7,7 @@
   elements:
   - title: Rev & Exp - Rolling 12 months
     name: Rev & Exp - Rolling 12 months
-    model: main
+    model: quickbooks
     explore: quickbooks__profit_and_loss
     type: looker_line
     fields: [quickbooks__profit_and_loss.calendar_month, quickbooks__profit_and_loss.account_class,
@@ -86,7 +86,7 @@
     height: 10
   - title: P&L Detail - Last Complete Month
     name: P&L Detail - Last Complete Month
-    model: main
+    model: quickbooks
     explore: quickbooks__profit_and_loss
     type: looker_grid
     fields: [quickbooks__profit_and_loss.calendar_month, quickbooks__profit_and_loss.account_class,

@@ -7,7 +7,7 @@
   elements:
   - title: Accounts - Last Complete Month
     name: Accounts - Last Complete Month
-    model: main
+    model: quickbooks
     explore: quickbooks__balance_sheet
     type: looker_grid
     fields: [quickbooks__balance_sheet.account_class, quickbooks__balance_sheet.account_name,
@@ -67,7 +67,7 @@
     height: 6
   - title: Accounts - Last Complete Month (ordinal investigation)
     name: Accounts - Last Complete Month (ordinal investigation)
-    model: main
+    model: quickbooks
     explore: quickbooks__balance_sheet
     type: looker_grid
     fields: [quickbooks__balance_sheet.account_class, quickbooks__balance_sheet.account_name,

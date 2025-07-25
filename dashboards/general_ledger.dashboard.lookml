@@ -7,7 +7,7 @@
   elements:
   - title: General Ledger
     name: General Ledger
-    model: main
+    model: quickbooks
     explore: quickbooks__general_ledger
     type: looker_grid
     fields: [quickbooks__general_ledger.account_name, quickbooks__general_ledger.financial_statement_helper,
@@ -75,7 +75,7 @@
     height: 10
   - title: AR & AP - R12 Months
     name: AR & AP - R12 Months
-    model: main
+    model: quickbooks
     explore: quickbooks__general_ledger_by_period
     type: looker_line
     fields: [quickbooks__general_ledger_by_period.period_first_day_month, quickbooks__general_ledger_by_period.account_name,
@@ -136,7 +136,7 @@
       type: advanced
       display: popover
       options: []
-    model: main
+    model: quickbooks
     explore: quickbooks__general_ledger
     listens_to_filters: []
     field: quickbooks__general_ledger.transaction_month

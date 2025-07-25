@@ -1,5 +1,5 @@
 view: customer {
-  sql_table_name: `imagination-media-324201.quickbooks.customer` ;;
+  sql_table_name: `im-datalake.im_quickbooks.customer` ;;
   drill_fields: [parent_customer_id]
 
   dimension: parent_customer_id {
@@ -185,15 +185,15 @@ view: customer {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-	parent_customer_id,
-	print_on_check_name,
-	fully_qualified_name,
-	display_name,
-	given_name,
-	middle_name,
-	company_name,
-	family_name
-	]
+  parent_customer_id,
+  print_on_check_name,
+  fully_qualified_name,
+  display_name,
+  given_name,
+  middle_name,
+  company_name,
+  family_name
+  ]
   }
 
 }

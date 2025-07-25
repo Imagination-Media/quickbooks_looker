@@ -1,5 +1,5 @@
 view: quickbooks__balance_sheet {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__balance_sheet` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__balance_sheet` ;;
 
   dimension: calendar_date_pk {
     hidden: yes

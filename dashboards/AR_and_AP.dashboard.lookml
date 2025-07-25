@@ -7,7 +7,7 @@
   elements:
   - title: Overdue Accounts
     name: Overdue Accounts
-    model: main
+    model: quickbooks
     explore: quickbooks__ap_ar_enhanced
     type: looker_grid
     fields: [quickbooks__ap_ar_enhanced.customer_vendor_name, quickbooks__ap_ar_enhanced.days_overdue,

@@ -1,5 +1,5 @@
 view: quickbooks__expenses_sales_enhanced {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__expenses_sales_enhanced` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__expenses_sales_enhanced` ;;
 
   dimension: transaction_id {
     primary_key: yes

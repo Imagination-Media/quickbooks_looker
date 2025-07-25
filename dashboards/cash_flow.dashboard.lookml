@@ -7,7 +7,7 @@
   elements:
   - title: Cash FLow - Last Complete Month
     name: Cash FLow - Last Complete Month
-    model: main
+    model: quickbooks
     explore: quickbooks__cash_flow_statement
     type: looker_grid
     fields: [quickbooks__cash_flow_statement.cash_flow_period_month, quickbooks__cash_flow_statement.account_name,
@@ -83,7 +83,7 @@
       type: advanced
       display: popover
       options: []
-    model: main
+    model: quickbooks
     explore: quickbooks__cash_flow_statement
     listens_to_filters: []
     field: quickbooks__cash_flow_statement.cash_flow_period_month

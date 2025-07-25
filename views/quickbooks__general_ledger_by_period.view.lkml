@@ -1,5 +1,5 @@
 view: quickbooks__general_ledger_by_period {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__general_ledger_by_period` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__general_ledger_by_period` ;;
 
   dimension: account_period_pk {
     primary_key: yes

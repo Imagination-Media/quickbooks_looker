@@ -1,5 +1,5 @@
 view: quickbooks__general_ledger {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__general_ledger` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__general_ledger` ;;
 
   dimension: transaction_id {
     primary_key: yes

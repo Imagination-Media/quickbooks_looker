@@ -1,5 +1,5 @@
 view: quickbooks__cash_flow_statement {
-  sql_table_name: `imagination-media-324201.quickbooks_quickbooks.quickbooks__cash_flow_statement` ;;
+  sql_table_name: `im-datalake.im_quickbooks_quickbooks.quickbooks__cash_flow_statement` ;;
 
   dimension: account_unique_id {
     primary_key: yes
