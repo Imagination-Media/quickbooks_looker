@@ -4,6 +4,7 @@ connection: "im-datalake"
 # include all the views
 include: "/views/*.view.lkml"
 include: "/dashboards/*.dashboard.lookml"
+include: "/data_tests/*.view.lkml"
 
 
 #
@@ -50,6 +51,21 @@ explore: quickbooks__general_ledger {
 }
 
 explore: quickbooks__general_ledger_by_period {
+}
+
+explore: primary_key_validation {
+  label: "Data Quality - Primary Key Validation"
+  description: "Validate primary key uniqueness across Quickbooks tables"
+}
+
+explore: referential_integrity_validation {
+  label: "Data Quality - Referential Integrity"
+  description: "Validate foreign key relationships in Quickbooks data"
+}
+
+explore: data_consistency_validation {
+  label: "Data Quality - Data Consistency"
+  description: "Validate business rules and data consistency in Quickbooks data"
 }
 
 explore: quickbooks__profit_and_loss {
