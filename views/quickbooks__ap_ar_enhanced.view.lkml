@@ -56,7 +56,7 @@ view: quickbooks__ap_ar_enhanced {
   }
   dimension: estimate_amount {
     type: number
-    sql: ${TABLE}.estimate_amount ;;
+    sql: ${TABLE}.estimate_total_amount ;;
   }
   dimension: estimate_id {
     type: string
